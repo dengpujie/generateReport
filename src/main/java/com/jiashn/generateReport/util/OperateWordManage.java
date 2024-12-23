@@ -18,6 +18,7 @@ import java.util.*;
  **/
 public class OperateWordManage {
     private final static Logger log = LoggerFactory.getLogger(OperateWordManage.class);
+//    private final static Logger log = LoggerFactory.getLogger(OperateWordManage.class);
 
     public static void generateWordContent(File tempFileFile, String destFilePath, List<LabelData> contents){
         FileOutputStream fos = null;
